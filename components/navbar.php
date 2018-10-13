@@ -18,6 +18,7 @@
                 <li class="active"><a href="#" data-nav-section="welcome">Bem Vindo</a></li>
                 <li><a href="#" data-nav-section="message">Mensagem</a></li>
                 <li><a href="#" data-nav-section="specialties">Especialidades</a></li>
+                <li><a href="#" data-nav-section="plans">Planos</a></li>
                 <li><a href="#" data-nav-section="menu">Cardápio</a></li>
                 <li><a href="#" data-nav-section="contact">Contato</a></li>
             </ul>

@@ -494,4 +494,14 @@
 		flexSlider();
 	});
 
+	jQuery('#filter-carnes')
+		.on( "click", function( event ) {
+			jQuery('.grid').isotope({ filter: '.carne' })
+		});
+
+	jQuery('#filter-complementos')
+		.on( "click", function( event ) {
+			jQuery('.grid').isotope({ filter: '.complemento' })
+		});
+
 })();

@@ -3,9 +3,9 @@
     class db {
 
         private $host = 'localhost';
-        private $usuario = 'root';
-        private $senha = 'usbw';
-        private $database = 'cnfit';
+        private $usuario = 'cnfit';
+        private $senha = 'cnfit';
+        private $database = 'id7451671_cnfit';
 
         public function conecta_mysql(){
             $con = mysqli_connect($this->host, $this->usuario, $this->senha, $this->database);

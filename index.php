@@ -19,13 +19,13 @@
 </head>
 
 <body>
-
     <?php
         require_once('components/navbar.php');
 
         require_once('components/section-welcome.php');
-        require_once('components/section-history.php');
+        require_once('components/section-message.php');
         require_once('components/section-specialties.php');
+        require_once('components/section-plans.php');
         require_once('components/section-menu.php');
         require_once('components/section-contact.php');
 
@@ -34,10 +34,8 @@
         require_once('components/copyright.html');
     ?>
 
-
-
     <script src="js/scripts.min.js"></script>
-    <script src="js/custom.min.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
 

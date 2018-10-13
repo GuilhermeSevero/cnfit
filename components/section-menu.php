@@ -12,22 +12,29 @@
     </section>
 
     <section class="probootstrap-section probootstrap-bg-white">
+      <h2 class="text-center mb30 mt0">Monte o seu cardápio, de acordo com o combo escolhido.</h2>
+      <div class="row mb20" align="center">
+        <div class="btn-group" role="group" aria-label="Tipos">
+          <button id="filter-carnes" type="button" class="btn btn-primary">Carnes</button>
+          <button id="filter-complementos" type="button" class="btn btn-primary">Complementos</button>
+        </div>
+      </div>
       <div class="container">
-        <div class="row">
-
+        <div class="row grid">
           <?php
             require_once('php/produto.php');
             $produtos = Produto::pratos();
             for ($i=0; $i < count($produtos); $i++) { 
               $prod = $produtos[$i];
-              echo '<div class="col-md-6">
+              $tipo = $prod->complemento ? 'complemento' : 'carne';
+              echo '<div class="col-md-6 element-item '.$tipo.'">
                       <ul class="menus">
                         <li>
                           <figure class="image"><img src="img/produtos/'.$prod->nome_imagem.'" alt=""></figure>
                           <div class="text">
-                            <span class="price">R$ '.$prod->preco.'</span>
+                            <span class="price"></span>
                             <h3>'.$prod->descricao.'</h3>
-                            <p>'.$prod->observacao.'</p>
+                            <p>'.$tipo.'</p>
                           </div>
                         </li>
                       </ul>

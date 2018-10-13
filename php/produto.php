@@ -9,6 +9,7 @@
         public $especialidade = false;
         public $peso = 0.000;
         public $nome_imagem = '';
+        public $complemento = false;
         // public $ingredientes = [];
 
         private static function get_conexao() {
@@ -54,6 +55,7 @@
             $produto->especialidade = $registro['especialidade'];
             $produto->peso = $registro['peso'];
             $produto->nome_imagem = $registro['nome_imagem'];
+            $produto->complemento = $registro['complemento'];
             // $produto->ingredientes = $registro['ingredientes'];
 
             return $produto;

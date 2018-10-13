@@ -7,7 +7,7 @@
               <h3 class="secondary-heading">Nossa Menságem para você!</h3>
               <span class="seperator">* * *</span>
             </div>
-            <p>
+            <p class="text-justify">
               “Que seu remédio seja seu alimento, e que seu alimento seja seu remédio” Aristóteles. 
               <div> <span class="seperator">* * *</span></div>
               Para quem está travando uma verdadeira batalha com a balança, aqui vai uma palavra de incentivo: 
