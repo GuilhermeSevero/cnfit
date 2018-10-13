@@ -8,6 +8,7 @@
         public $preco = 0.00;
         public $especialidade = false;
         public $peso = 0.000;
+        public $nome_imagem = '';
         // public $ingredientes = [];
 
         private static function get_conexao() {
@@ -18,6 +19,10 @@
 
         public static function all() {
             return Produto::executa(" SELECT p.* FROM produtos p ORDER BY p.descricao ");
+        }
+        
+        public static function pratos() {
+            return Produto::executa(" SELECT p.* FROM produtos p WHERE p.especialidade = FALSE ORDER BY p.descricao ");
         }
 
         public static function especialidades() {
@@ -48,6 +53,7 @@
             $produto->preco = $registro['preco'];
             $produto->especialidade = $registro['especialidade'];
             $produto->peso = $registro['peso'];
+            $produto->nome_imagem = $registro['nome_imagem'];
             // $produto->ingredientes = $registro['ingredientes'];
 
             return $produto;

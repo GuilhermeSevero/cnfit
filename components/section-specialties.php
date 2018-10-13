@@ -17,16 +17,17 @@
           <div class="probootstrap-cell-retro">
             <?php
               require_once('php/produto.php');
-              $produtos = Produto::all();
+              $produtos = Produto::especialidades();
               for ($i=0; $i < count($produtos); $i++) { 
                 $prod = $produtos[$i];
 
                 echo '<div class="half">
                         <div class="probootstrap-cell'.(($i / 2) % 2 == 0 ? ' ' : ' reverse ').'probootstrap-animate" data-animate-effect="fadeIn">
-                          <div class="image" style="background-image: url(img/produtos/'.$prod->id.'.jpg);"></div>
+                          <div class="image" style="background-image: url(img/produtos/'.$prod->nome_imagem.');"></div>
                           <div class="text text-center">
                             <h3>'.$prod->descricao.'</h3>
                             <p>'.$prod->observacao.'</p>
+                            <p>'.$prod->peso.' Kg</p>
                             <p class="price">R$ '.$prod->preco.'</p>
                           </div>
                         </div>

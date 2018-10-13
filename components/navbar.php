@@ -16,7 +16,7 @@
         <div id="navbar-collapse" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#" data-nav-section="welcome">Bem Vindo</a></li>
-                <li><a href="#" data-nav-section="about">Sobre</a></li>
+                <li><a href="#" data-nav-section="message">Mensagem</a></li>
                 <li><a href="#" data-nav-section="specialties">Especialidades</a></li>
                 <li><a href="#" data-nav-section="menu">Cardápio</a></li>
                 <li><a href="#" data-nav-section="contact">Contato</a></li>

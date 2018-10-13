@@ -17,17 +17,17 @@
 
           <?php
             require_once('php/produto.php');
-            $produtos = Produto::all();
+            $produtos = Produto::pratos();
             for ($i=0; $i < count($produtos); $i++) { 
               $prod = $produtos[$i];
               echo '<div class="col-md-6">
                       <ul class="menus">
                         <li>
-                          <figure class="image"><img src="img/produtos/'.$prod->id.'.jpg" alt=""></figure>
+                          <figure class="image"><img src="img/produtos/'.$prod->nome_imagem.'" alt=""></figure>
                           <div class="text">
                             <span class="price">R$ '.$prod->preco.'</span>
                             <h3>'.$prod->descricao.'</h3>
-                            <p>'.$prod->peso.' Kg</p>
+                            <p>'.$prod->observacao.'</p>
                           </div>
                         </li>
                       </ul>
