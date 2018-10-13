@@ -1,7 +1,5 @@
 THEME: Resto - Free Bootstrap Theme
-AUTHOR: uiCookies.com
-AUTHOR URI: https://uiCookies.com/
-
+AUTHOR: Guilherme Severo
 
 CREDITS:
 
