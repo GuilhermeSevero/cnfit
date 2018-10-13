@@ -7,8 +7,9 @@
               <h3 class="secondary-heading">Nossa História</h3>
               <span class="seperator">* * *</span>
             </div>
-            <p>Voluptatibus quaerat laboriosam fugit non Ut consequatur animi est molestiae enim a voluptate totam natus modi debitis 
-              dicta impedit voluptatum quod sapiente illo saepe explicabo quisquam perferendis labore et illum suscipit</p>
+            <p>“Que seu remédio seja seu alimento, e que seu alimento seja seu remédio” <br>
+              
+            </p>
             <p><a href="#" class="probootstrap-custom-link">Bem Vindo</a></p>
           </div>
           <div class="col-md-6 col-md-push-1 probootstrap-animate">

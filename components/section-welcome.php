@@ -19,8 +19,8 @@
                     <div class="col-md-8 col-md-offset-2">
                         <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
                             <h1 class="primary-heading">Vem Ser Saudável</h1>
-                            <h3 class="secondary-heading">Conosco</h3>
-                            <p class="sub-heading">Alguma coisa pra dizer sobre ser saudável</p>
+                            <!-- <h3 class="secondary-heading">Conosco</h3> -->
+                            <p class="sub-heading">Não coma menos, coma melhor!</p>
                         </div>
                     </div>
                 </div>
@@ -33,8 +33,8 @@
                     <div class="col-md-8 col-md-offset-2">
                         <div class="probootstrap-slider-text text-center probootstrap-animate probootstrap-heading">
                             <h1 class="primary-heading">Aproveite</h1>
-                            <h3 class="secondary-heading">CNFIT</h3>
-                            <p class="sub-heading">Mais coisas, se quiser dizer...</p>
+                            <!-- <h3 class="secondary-heading">CNFIT</h3> -->
+                            <p class="sub-heading">E faça as pazes com a comida!</p>
                         </div>
                     </div>
                 </div>

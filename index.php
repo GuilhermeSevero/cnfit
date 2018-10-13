@@ -20,16 +20,20 @@
 
 <body>
 
-    <?php require_once('components/navbar.php')?>
+    <?php
+        require_once('components/navbar.php');
 
-    <?php require_once('components/section-welcome.php')?>
-    <?php require_once('components/section-history.php')?>
-    <?php require_once('components/section-specialties.php')?>
-    <?php require_once('components/section-menu.php')?>
-    <?php require_once('components/section-contact.php')?>
+        require_once('components/section-welcome.php');
+        require_once('components/section-history.php');
+        require_once('components/section-specialties.php');
+        require_once('components/section-menu.php');
+        require_once('components/section-contact.php');
 
-    <?php require_once('components/footer.html')?>
-    <?php require_once('components/copyright.html')?>
+        require_once('components/footer.html');
+     
+        require_once('components/copyright.html');
+    ?>
+
 
 
     <script src="js/scripts.min.js"></script>
