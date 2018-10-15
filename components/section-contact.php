@@ -21,6 +21,9 @@
                     <img src="img/whats.png" alt="WhatsApp">
                     <span>(51) 99965-6393</span>
                 </p>
+                <a href="https://www.facebook.com/cnfitvsaudavel/">
+                    <img src="img/face.ico" alt="Facebook"/>
+                </a>
             </div>
             <div class="col-md-6 col-md-push-1 probootstrap-animate">
                 <?php

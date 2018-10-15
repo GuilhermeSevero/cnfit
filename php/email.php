@@ -9,11 +9,13 @@
 
     $from = $email;
 
-    $to = "jo_neugebauer@hotmail.com;guilhermehmsevero@hotmail.com";
+    $to = "jo_neugebauer@hotmail.com";
 
     $subject = "Contato Site ($nome)";
 
-    $headers = "From:". $from;
+    $headers = 'From: "SITE - CNFIT" <'.$from.'>\r\n';
+    $headers .= 'Content-Type: text/html; charset=iso-8859-1\r\n';
+    $headers .= 'Cc:guilhermehmsevero@hotmail.com';
 
     try {
         mail($to, $subject, $mensagem, $headers);

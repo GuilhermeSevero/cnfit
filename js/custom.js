@@ -496,11 +496,13 @@
 
 	jQuery('#filter-carnes')
 		.on( "click", function( event ) {
-			jQuery('.grid').isotope({ filter: '.carne' })
+			jQuery('.grid').isotope({ filter: '.carne' });
 		});
 
 	jQuery('#filter-complementos')
 		.on( "click", function( event ) {
-			jQuery('.grid').isotope({ filter: '.complemento' })
+			jQuery('.grid').isotope({ filter: '.complemento' });
 		});
+	
+	jQuery('.grid').isotope({ filter: '.carne' }); // Filtra cardápio para mostrar apenas carnes
 })();
