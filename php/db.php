@@ -3,7 +3,7 @@
     class db {
 
         private $host = 'localhost';
-        private $usuario = 'cnfit';
+        private $usuario = 'id7451671_cnfit';
         private $senha = 'cnfit';
         private $database = 'id7451671_cnfit';
 

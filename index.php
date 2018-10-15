@@ -7,6 +7,7 @@
     <title>CNFIT - Vida Saudável</title>
     <meta name="description" content="Página da CNFIT - Vida Saudável">
     <meta name="keywords" content="Low Carb, fit, fitness, saúde, dieta">
+    <link id="favicon" rel="shortcut icon" href="/img/favicon.png" type="image/png">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pinyon+Script" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css">

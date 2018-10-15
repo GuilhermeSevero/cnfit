@@ -4,7 +4,7 @@
           <div class="col-md-12 text-center probootstrap-animate">
             <div class="probootstrap-heading">
               <h2 class="primary-heading">Descubra</h2>
-              <h3 class="secondary-heading">Nossos Planos</h3>
+              <h3 class="secondary-heading">Nossos Combos</h3>
             </div>
           </div>
         </div>
@@ -16,7 +16,7 @@
           <div class="col-md-4 col-sm-4 probootstrap-animate">
             <div class="probootstrap-block-image">
               <div class="text">
-                <h2 class="text-center"><a href="#" data-nav-section="menu">PLANO 01</a></h2>
+                <h2 class="text-center"><a href="#" data-nav-section="menu">COMBO 01</a></h2>
                 <ul>
                     <li>1 Marmita</li>
                     <li>1 Carne</li>
@@ -29,7 +29,7 @@
           <div class="col-md-4 col-sm-4 probootstrap-animate">
             <div class="probootstrap-block-image">
               <div class="text">
-                <h2 class="text-center"><a href="#" data-nav-section="menu">PLANO 02</a></h2>
+                <h2 class="text-center"><a href="#" data-nav-section="menu">COMBO 02</a></h2>
                 <ul>
                     <li>5 Marmitas</li>
                     <li>1 Carne p/Marmita</li>

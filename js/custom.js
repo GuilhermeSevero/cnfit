@@ -503,5 +503,4 @@
 		.on( "click", function( event ) {
 			jQuery('.grid').isotope({ filter: '.complemento' })
 		});
-
 })();
