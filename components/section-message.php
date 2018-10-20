@@ -4,7 +4,7 @@
           <div class="col-md-5 text-center probootstrap-animate">
             <div class="probootstrap-heading dark">
               <h1 class="primary-heading">Descubra</h1>
-              <h3 class="secondary-heading">Nossa Menságem para você!</h3>
+              <h3 class="secondary-heading">Nossa Mensagem para você!</h3>
               <span class="seperator">* * *</span>
             </div>
             <p class="text-center">
