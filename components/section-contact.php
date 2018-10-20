@@ -18,11 +18,15 @@
                 </p>
                 <div> <span class="seperator">* * *</span></div>
                 <p>
-                    <img src="img/whats.png" alt="WhatsApp">
-                    <span>(51) 99965-6393</span>
+                    <img src="img/logo/whats.png" alt="WhatsApp" class="logo-contato" id="logo-whats">
+                    <span><strong>(51) 99965-6393</strong></span>
+                </p>
+                <p>
+                    <img src="img/logo/mail.png" alt="e-Mail" class="logo-contato">
+                    <span><strong>contato@cnfit.com.br</strong></span>
                 </p>
                 <a href="https://www.facebook.com/cnfitvsaudavel/">
-                    <img src="img/face.ico" alt="Facebook"/>
+                    <img src="img/logo/face.ico" alt="Facebook"/>
                 </a>
             </div>
             <div class="col-md-6 col-md-push-1 probootstrap-animate">

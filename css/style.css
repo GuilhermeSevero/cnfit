@@ -2313,6 +2313,14 @@ section[data-section="menu"] {
   padding-bottom: 0 !important;
 }
 
+.logo-contato {
+  width: 30px;
+}
+
+#logo-whats {
+  margin-right: 5px;
+}
+
 @media screen and (max-width: 768px) {
   .img-sm-responsive {
     max-width: 100%;
