@@ -26,7 +26,7 @@
                     <span><strong>contato@cnfit.com.br</strong></span>
                 </p>
                 <a href="https://www.facebook.com/cnfitvsaudavel/">
-                    <img src="img/logo/face.ico" alt="Facebook"/>
+                    <img src="img/logo/face.png" alt="Facebook"/>
                 </a>
             </div>
             <div class="col-md-6 col-md-push-1 probootstrap-animate">
